@@ -1,0 +1,24 @@
+{
+  "name": "data-hash",
+  "version": "1.0.0",
+  "description": "Super Strong Hashing Algorithm which converts data into hash code",
+  "main": "dataHash.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishantjaryal/data-hash.git"
+  },
+  "keywords": [
+    "data-hash",
+    "data-hash",
+    "hash"
+  ],
+  "author": "Nishant jaryal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishantjaryal/data-hash/issues"
+  },
+  "homepage": "https://github.com/Nishantjaryal/data-hash#readme"
+}

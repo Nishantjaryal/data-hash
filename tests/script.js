@@ -1,6 +1,16 @@
-const { Dataset,hash,salt } = require("../package/dataHash.js")
+const {hash, DataHash, salt } = require("data-hash")
 
-const data = "hello my name is nishant"
-const salt = "{re0vyndlsz}Uy9"
-console.log(new Dataset(salt,data).cook())
-// console.log(Dataset.dilute())  here in function without arguments there is no need to use new
+const my_data_string = "this is a secret"
+
+console.log(hash(my_data_string)) //pDltYOHQ5vSAs7gsPgrOaUDHyG9BbIpuqu0hN3fO
+
+
+
+const mysalt = salt() //
+
+console.log(new DataHash(mysalt,data).cook()) // VrdNWLuzYcD8wcIcTNXMO1HeoLSCzZvd8tk5BY4E
+
+
+
+
+// console.log(DataHash.dilute())  here in function without arguments there is no need to use new

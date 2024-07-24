@@ -173,7 +173,7 @@ function hash(code_string) {
     return return_str.split('').reverse().join(''); // return reverse of what we have obtained
 
 }
-function Dataset(salt,text) {
+function DataHash(salt,text) {
     let position = 0
     hashable = ""
     const string = text.toString()
@@ -193,10 +193,10 @@ function Dataset(salt,text) {
     return hashable;
 }
 
-Dataset.prototype.cook = function(){
+DataHash.prototype.cook = function(){
    const hashedString = hash(this.hashable);
    return hashedString
 }
 
 
-module.exports = { Dataset,hash,salt }
+module.exports = { DataHash,hash,salt }
