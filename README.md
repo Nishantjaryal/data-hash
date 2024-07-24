@@ -8,16 +8,18 @@ data-hash is very simple to use but yet very powerful package used to generate s
 ```
 const {hash, salt ,DataHash} = require("data-hash")
 
+
+
+// hash: This function Generates Super Strong Hashes
+
+// salt: This function Dynamically Generates salts( Random hash codes ), this salt play key role in identification of genuine SECRET and its Hash Signature combination.
+
+// DataHash: DataHash function creates a Wrapper of Salt on provided data
+
+// DataHash.prototype.cook: Prototype function "cook" Generates Hash value of previously Salted data by parent function.
+
+
 ```
-
-hash : This function Generates Super Strong Hashes
-
-salt : This function Dynamically Generates salts( Random hash codes ), this salt play key role in identification of genuine SECRET and its Hash Signature combination.
-
-DataHash: DataHash function creates a Wrapper of Salt on provided data
-
-DataHash.prototype.cook: Prototype function "cook" Generates Hash value of previously Salted data by parent function.
-
 
 ### To Hash provided data
 
