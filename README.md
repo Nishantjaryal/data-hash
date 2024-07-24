@@ -12,7 +12,8 @@ const {hash, salt ,DataHash} = require("data-hash")
 
 // hash: This function Generates Super Strong Hashes
 
-// salt: This function Dynamically Generates salts( Random hash codes ), this salt play key role in identification of genuine SECRET and its Hash Signature combination.
+// salt: This function Dynamically Generates salts( Random hash codes )
+// salt plays key role in identification of genuine SECRET and its Hash Signature combination.
 
 // DataHash: DataHash function creates a Wrapper of Salt on provided data
 
