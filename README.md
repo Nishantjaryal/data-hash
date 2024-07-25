@@ -17,7 +17,7 @@ const {hash, salt ,DataHash} = require("data-hash")
 
 // DataHash: DataHash function creates a Wrapper of Salt on provided data
 
-// DataHash.prototype.cook: Prototype function "cook" Generates Hash value of previously Salted data by parent function.
+// DataHash.prototype.cook: Generates Hash value of previously Salted data by parent function.
 
 
 ```
