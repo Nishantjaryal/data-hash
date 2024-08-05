@@ -1,5 +1,5 @@
 {
-  "name": "data-hash",
+  "name": "@nishantjaryal/data-hash",
   "version": "1.0.0",
   "description": "Super Strong Hashing Algorithm which converts data into hash code",
   "main": "dataHash.js",
